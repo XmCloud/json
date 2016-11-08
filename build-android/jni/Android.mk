@@ -15,5 +15,5 @@ LOCAL_LDLIBS += -L/home/share/fujiafeng/android-ndk-r8/sources/cxx-stl/gnu-libst
 LOCAL_C_INCLUDES += $(ROOT_PATH)/include/
 LOCAL_C_INCLUDES += $(ROOT_PATH)/src/
 
-#include $(BUILD_STATIC_LIBRARY)
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
+#include $(BUILD_SHARED_LIBRARY)

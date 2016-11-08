@@ -1,3 +1,7 @@
 *.o
 *.a
 .DS_Store
+build-android/obj/*
+build-ios/json/json/._json.h
+build-ios/json/json/._json.m
+
