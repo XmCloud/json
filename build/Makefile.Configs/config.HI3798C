@@ -1,0 +1,10 @@
+CROSS	= arm-histbv310-linux-
+CC	= @echo " GCC	$@"; $(CROSS)gcc
+CPP	= @echo " G++	$@"; $(CROSS)g++
+LD	= @echo " LD	$@"; $(CROSS)ld
+AR	= @echo " AR	$@"; $(CROSS)ar
+RM	= @echo " RM	$@"; rm -f
+STRIP 	= @echo " STRIP $@"; $(CROSS)strip
+
+
+PLATFORM = HI3798C

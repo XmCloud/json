@@ -1,0 +1,11 @@
+CROSS	= arm-hisiv300-linux-
+CC	= @echo " GCC	$@"; $(CROSS)gcc
+CPP	= @echo " G++	$@"; $(CROSS)g++
+LD	= @echo " LD	$@"; $(CROSS)ld
+AR	= @echo " AR	$@"; $(CROSS)ar
+RM	= @echo " RM	$@"; rm -f
+STRIP 	= @echo " STRIP $@"; $(CROSS)strip
+
+CFLAGS  += -mcpu=arm926ej-s  -mno-unaligned-access -fno-aggressive-loop-optimizations
+
+PLATFORM = HI3518EV200

@@ -4,4 +4,5 @@
 build-android/obj/*
 build-ios/json/json/._json.h
 build-ios/json/json/._json.m
+build/config
 
